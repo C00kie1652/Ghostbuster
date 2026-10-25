@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=M+PLUS+Rounded+1c&family=Noto+Sans+Mandaic&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgb(48, 48, 48);
+}
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(40, 40, 40);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+header {
+    padding: 10px 0px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(40, 40, 40);
+
+}
+.button { 
+    padding: 20px;
+    color: white;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 20px;   
+}
+.group-buttoms {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+h1 {
+    font-size: 5vh;
+}
+p {
+    font-size: 2vh;
+}
+h1, p {
+    color: white;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+main {
+    display: flex;
+    align-items : center;
+    flex-direction: column;
+}
+.big-buttom {
+    height: 300px;
+    width: 300px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.group-big-buttoms {
+    display: flex;
+    width: 930px;
+    max-height: 1860px;
+    min-height: 620px;
+    flex-wrap: wrap;
+}
+.logo {
+    height: 80px;
+    width: 100px;
+    background-image: url(img/logoipsum-434.svg);
+    background-size: cover;
+    margin-left: 20px;
+}
+.space {
+    width: 100%;
+    height: 5vh;
+}
+@media screen and (max-width: 950px) {  
+    .group-big-buttoms {
+        width: 620px;
+    }
+}
+@media screen and (max-width: 650px) {  
+    .group-big-buttoms {
+        width: 310px;
+    }
+}
+#polter {
+    background-image: url(img/polter.jpg);
+    background-size: cover;
+}
+#bashnia {
+    background-image: url(img/bashnia.jpg);
+    background-size: cover;
+}
+#prish {
+    background-image: url(img/prish.jpg);
+    background-size: cover;
+}
+#scin {
+    background-image: url(img/scienc.jpg);
+    background-size: cover;
+}
+#bashnia2 {
+    background-image: url(img/bashnia2.jpg);
+    background-size: cover;
+}#hands {
+    background-image: url(img/hands.png);
+    background-size: cover;
+}
+table {
+    color: white;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 2vh;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+.icon {
+    height: 75px;
+    width: 75px;
+}
+.Telegram {
+    background-image: url(img/Telegram_logo.svg);
+    background-size: contain;
+}
+.WhatsApp {
+    background-image: url(img/WhatsApp.svg);
+    background-size: contain;
+}
